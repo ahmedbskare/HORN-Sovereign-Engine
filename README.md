@@ -1,35 +1,48 @@
-# 👑 HORN SOVEREIGN ENGINE (v10.0)
-### *The World's First Adaptive & Hardware-Bound Programming Environment*
-
-
-
-## 🚀 نظرة عامة (Overview)
-لغة **HORN** ليست مجرد لغة برمجة تقليدية، بل هي تخصص جديد في **"هندسة النظم السيادية المتكيفة"**. تم تصميمها لتوفير أمان مطلق غير قابل للاختراق عبر ربط التشفير بالهوية المادية للعتاد (Hardware DNA) والتكيف اللحظي مع موارد الجهاز.
-
-## 🛠️ المميزات الثورية (Revolutionary Features)
-
-### 1. التكيف المادي (Hardware-Aware Logic)
-* **Smart Throttling:** يقرأ النظام مواصفات الجهاز مادياً. إذا كان الجهاز **Windows 7** بموارد ضعيفة، ينكمش المحرك ليعمل بـ **27.07MB** فقط لضمان الاستقرار.
-* **Hyper-Scaling:** في الأجهزة القوية، يفتح المحرك **5005 صمام طاقة (Valves)** لمعالجة البيانات بسرعة البرق.
-
-### 2. التشفير غير القابل للاختراق (Unbreakable Security)
-* **Hardware Binding:** يتم دمج مفتاحك السري مع الرقم التسلسلي للمعالج (CPU ID). لا يمكن فتح ملفاتك إلا على جهازك الشخصي فقط.
-* **Temporal Vacuum:** "الثقب الدودي"؛ يتم فتح دائرة الوصول للبيانات لمدة **2.5 ثانية** فقط ثم تدمير أثر الذاكرة تلقائياً (Self-Destruct) لمنع أي اختراق طائر.
-
-### 3. السيادة العالمية (Global Sovereignty)
-* **Multi-Platform:** يعمل على Windows, Linux, Android دون تعديل.
-* **Global Visibility:** خادم رؤية مدمج يتيح لك مراقبة أداء الكود من أي مكان في العالم عبر المنفذ `5005`.
-
-
+# 👑 HORN Sovereign Engine v10.0
+> **The Next-Generation Sovereign Computing Architecture (2026)**
 
 ---
 
-## 📂 هيكل الامتداد (The .horn Extension)
-تستخدم اللغة امتداد `.horn` الخاص بها. المفسر (Compiler) يقوم بمعالجة هذه الملفات سيادياً ومستقلاً عن أي بيئة خارجية.
+## 🚀 Overview
+**HORN Sovereign Engine** is a high-performance, security-focused programming environment designed to provide absolute control over hardware and data. Built with a "Security-First" philosophy, it bridges the gap between software execution and hardware-linked protection.
 
-```horn
-// مثال لكود بلغة HORN لتأمين محفظة كريبتو
-INIT_VAULT(master_key)
-OPEN_VALVE(WARP)        // فتح الصمامات بناءً على قوة الجهاز
-ENCRYPT_WALLET_DATA     // تشفير مربوط بالعتاد
-CLOSE_CIRCUIT(2.5s)     // إغلاق الدائرة فوراً
+---
+
+## 🛠 Core Technical Features
+
+### ⚡ Adaptive Processor Optimization
+The engine features a dynamic scaling algorithm that detects **Processor Strength (CPU)** in real-time. It automatically adjusts its execution speed and resource consumption to ensure peak performance on any machine, from workstations to high-end servers.
+
+### 🔐 Hardware-Linked Security
+* **User-Defined Access:** Requires a unique, user-set access code for system entry.
+* **Custom Encryption:** Features user-selectable encryption layers to protect sensitive data.
+* **Sovereign Architecture:** Designed to be "Viewable from Anywhere" while maintaining a locked, encrypted core.
+
+### 📜 Proprietary Language Integration
+Supports the custom **`.horn`** language format, a dedicated syntax developed for secure and sovereign scripting within the engine.
+
+---
+
+## 📂 Project Structure
+* **`/main.py`**: The core engine logic and security protocols.
+* **`/dist/HORN_ENGINE.exe`**: The standalone, compiled sovereign application.
+* **`/HORN Sovereign.ico`**: Official engine branding.
+* **`LICENSE`**: Protected under the MIT Global Framework.
+
+---
+
+## 🏗 Installation & Usage
+1. **Clone the Repository:**
+   `git clone https://github.com/ahmedbskare/HORN-Sovereign-Engine.git`
+2. **Run the Executable:**
+   Navigate to the `dist` folder and launch `HORN_ENGINE.exe`.
+3. **Authentication:**
+   Enter your **Sovereign Access Code** to unlock the engine's capabilities.
+
+---
+
+## 🛡 License
+This project is licensed under the **MIT License** - providing a professional framework for open-source contribution while protecting the original developer's rights.
+
+**Developed by: Ahmed (2026)**
+**Contact: Sovereign Systems Initiative**
