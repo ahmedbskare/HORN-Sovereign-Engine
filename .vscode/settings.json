@@ -5,5 +5,7 @@
     "python.analysis.typeCheckingMode": "basic",
     "editor.codeActionsOnSave": {
         "source.fixAll": "explicit"
-    }
+    },
+    "cursorpyright.analysis.autoImportCompletions": true,
+    "cursorpyright.analysis.typeCheckingMode": "basic"
 }
