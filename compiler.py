@@ -202,7 +202,7 @@ gen_ai = HornGenAI()
 thermal = HornThermalWatch()
 vault = HornCryptoVault()
 ext_cmds = register_extended_instructions()
-dash = SovereignDashboard()
+dash = SovereignDashboard() 
 
 # إطلاق دورة المراقبة والتحكم الشاملة
 
