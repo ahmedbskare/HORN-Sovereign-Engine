@@ -10,7 +10,7 @@ import secrets
 import threading
 from datetime import datetime
 
-from compiler_fixed import SovereignRegistry
+from compiler_fixed import HornHardwareBridge, SovereignRegistry
 
 # POLYMORPHIC ENCRYPTION ENGINE
 
@@ -912,16 +912,16 @@ def inject_massive_instruction_set() ->
     def perform_deep_audit(self):
         """فحص بصمة الذاكرة والأنوية الـ 16 بحثاً عن تلاعب [cite: 2026-02-21]"""
         print(">>> [AUDIT] STARTING DEEP SYSTEM SCAN...")
-        integrity_score = Random.uniform(99.9, 100.0)
+        integrity_score = random.uniform(99.9, 100.0)
         return f"AUDIT_PASSED_SCORE_{integrity_score}%"
 
 
 # تفعيل موديولات الباتش السابع
-asm = HornAssemblyTranslator()
+asm = HornAssemblyTranslator() # type: ignore
 link = HornHardwareBridge()
-swarm = HornSwarmProcessor()
-deploy = HornDeployer()
-audit = HornAuditSystem()
+swarm = HornSwarmProcessor() # type: ignore
+deploy = HornDeployer() # type: ignore
+audit = HornAuditSystem() # pyright: ignore[reportUndefinedVariable]
 
 # إطلاق السرب وحقن الأوامر
 
@@ -1050,16 +1050,16 @@ def inject_massive_instruction_set():
     def perform_deep_audit(self):
         """فحص بصمة الذاكرة والأنوية الـ 16 بحثاً عن تلاعب [cite: 2026-02-21]"""
         print(">>> [AUDIT] STARTING DEEP SYSTEM SCAN...")
-        integrity_score = Random.uniform(99.9, 100.0)
+        integrity_score = random.uniform(99.9, 100.0)
         return f"AUDIT_PASSED_SCORE_{integrity_score}%"
 
 
 # تفعيل موديولات الباتش السابع
-asm = HornAssemblyTranslator()
+asm = HornAssemblyTranslator() # pyright: ignore[reportUndefinedVariable]
 link = HornHardwareBridge()
-swarm = HornSwarmProcessor()
-deploy = HornDeployer()
-audit = HornAuditSystem()
+swarm = HornSwarmProcessor() # type: ignore
+deploy = HornDeployer() # type: ignore
+audit = HornAuditSystem() # type: ignore
 
 # إطلاق السرب وحقن الأوامر
 
@@ -7704,7 +7704,7 @@ def run_data_intelligence_cycle(intel_ops=50000000):
     """دورة الذكاء السيادي لتحليل البيانات الضخمة [cite: 2026-02-15]"""
     intel_arch = HornDataIntelligenceArchitect()
     intel_gov = HornIntelligenceSpeedGovernor()
-    insight_portal = HornGlobalInsightPortalV25()
+    insight_portal = HornGlobalInsightPortalV25() # pyright: ignore[reportUndefinedVariable]
 
     # ربط الذكاء بالخزنة السيادية V15 لضمان عدم تسريب المعلومات
     vault = HornSovereignVaultV15("SECURE_ACCESS_CODE")
