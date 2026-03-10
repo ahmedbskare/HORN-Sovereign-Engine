@@ -642,7 +642,7 @@ def inject_massive_instruction_set():
     def perform_deep_audit(self):
         """فحص بصمة الذاكرة والأنوية الـ 16 بحثاً عن تلاعب [cite: 2026-02-21]"""
         print(">>> [AUDIT] STARTING DEEP SYSTEM SCAN...")
-        integrity_score = Random.uniform(99.9, 100.0)
+        integrity_score = random.uniform(99.9, 100.0)
         return f"AUDIT_PASSED_SCORE_{integrity_score}%"
 
 
@@ -1214,7 +1214,7 @@ def inject_massive_instruction_set():
     def perform_deep_audit(self):
         """فحص بصمة الذاكرة والأنوية الـ 16 بحثاً عن تلاعب [cite: 2026-02-21]"""
         print(">>> [AUDIT] STARTING DEEP SYSTEM SCAN...")
-        integrity_score = Random.uniform(99.9, 100.0)
+        integrity_score = random.uniform(99.9, 100.0)
         return f"AUDIT_PASSED_SCORE_{integrity_score}%"
 
 
